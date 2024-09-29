@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware to parse incoming requests with JSON payloads
 app.use(express.json());
 
-// Use the user routes
+// Use the User routes
 app.use("/api", userRoutes);
 
 // Sync the database models and start the server

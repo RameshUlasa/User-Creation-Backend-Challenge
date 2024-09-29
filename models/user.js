@@ -1,7 +1,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../db/sqlite");
 
-// Define the User model
+// Define The User model
 const User = sequelize.define("User", {
   id: {
     type: DataTypes.INTEGER,

@@ -9,7 +9,7 @@ const registerUser = async (req, res) => {
     // Create a new user
     const newUser = await User.create({ name });
 
-    // Add the address for the user
+    // Add the Address for the User
     const newAddress = await Address.create({
       address,
       userId: newUser.id,
