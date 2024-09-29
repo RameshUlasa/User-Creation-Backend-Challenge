@@ -1,4 +1,4 @@
-# Smoke Trees Backend-Challenge
+# User-Creation-Backend-Challenge
 This is a simple backend application built using **JavaScript**, **Express.js**, **Node.js** and **SQLite**. It allows users to register and store their addresses. The application includes two tables: **Users** and **Addresses**, with a one-to-many relationship between them.
 
 ### Prerequisites
@@ -9,7 +9,7 @@ This is a simple backend application built using **JavaScript**, **Express.js**,
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/RRR-Backend-Challenge.git
+git clone https://github.com/RameshUlasa/User-Creation-Backend-Challenge.git
 ```
 ### 2. Navigate to the Project Directory
 
